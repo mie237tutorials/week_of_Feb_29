@@ -4,6 +4,10 @@ date: "Week of February 29, 2016"
 output: pdf_document
 ---
 
+Textbook suggestions. All questions from from 11.1 to 11.42 are fine to practice ***except for***: 11.16(a), 11.17(b), 11.18(b), 11.19(b), 11.20, 11.21, 11.31, 11.32, 11.33, 11.35, 11.36(b), 11.37(b), 11.38(b), 11.40(b, c), 11.42.
+
+We do not cover sections 11.9 and 11.10 at all. I may mention 11.10 material casually in class but you will not be responsible for it.
+
 ## F and R^2
 
 First let's practice how the $F$ and $R^2$ business fits in with the rest of the numbers, with the data from question 11.49 from the book. Here is the usual regression output: 
@@ -16,7 +20,7 @@ summary(lm(lm(`Heart-Weight` ~ `Body-Weight`, data = wc)))
 
 The $R^2$ value is after `Multiple R-squared:`.
 
-Question: construct the ANOVA table for this regression analysis.
+Question: construct the ANOVA table for this regression analysis and verify that the $R^2$ value is as given.
 
 ## A question from a 2015 midterm
 
@@ -83,6 +87,6 @@ Total           ***  6146.85
   
 5. Estimate the average number of thousands of residential water accounts for a City of Toronto ward for the year 2014. Produce a 95\% confidence interval for this estimate. 
   
-6. Predict the number of thousands of residential water accounts in a randomly selected City of Toronto ward for the year 2014. Produce a 95\% prediction interval for this prediction. 
+6. Predict the number of thousands of residential water accounts in a randomly selected City of Toronto ward for the year 2014. Produce a 95\% prediction interval for this prediction. (We will revisit this question next week.)
 
 7. The regression analysis using the original data (before dividing the counts of residential accounts by 1000) results in exactly the same p-values. Explain why.
